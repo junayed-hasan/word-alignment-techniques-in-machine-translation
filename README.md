@@ -97,9 +97,7 @@ For a detailed example of how to use the alignment models and interpret the resu
 
 Our experiments show significant improvements in alignment quality across models:
 
-1. Dice's Coefficient (Baseline): AER = 0.623229
-2. IBM Model 1 (100B sentences, 10 iterations): AER = 0.357885
-3. Bidirectional Model (100B sentences, 50 iterations): AER = 0.223769
+![Experimental Results](results.png)
 
 For a complete breakdown of results and analysis, please refer to the `example.ipynb` notebook.
 
