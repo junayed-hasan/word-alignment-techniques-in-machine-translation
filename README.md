@@ -17,7 +17,11 @@ This repository contains implementations of various word alignment models for ma
 
 ## Overview
 
-Word alignment is a crucial step in statistical machine translation. This project implements and compares several alignment models:
+Word alignment is a crucial step in statistical machine translation. It is the process of assigning word or phrases of one language to another, upon consideration of reordering and context. An example can be seen below:
+
+![ALignment image](alignment.png)
+
+The simplest and most naive form of alignment is to assign the same index to both the languages for a particular word. However, there exists advanced algorithms to handle this, but this is still an active research area. This project implements and compares several alignment models:
 
 1. Dice's Coefficient (baseline)
 2. IBM Model 1
